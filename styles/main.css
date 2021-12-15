@@ -89,7 +89,7 @@ main section .line {
     margin-block: 3%;
 }
 
-main section .line div {
+main section .line .card {
     transition: 0.3s;
     cursor: pointer;
 
@@ -106,10 +106,36 @@ main section .line div {
     width: 10vw;
 }
 
-main section .line div:hover {
+main section .line .card:hover {
     transform: scale(1.1);
 }
 
-main section .line div img {
+main section .line .card img {
     width: 60%;
+}
+
+main section .line .list-item {
+    transition: 0.3s;
+
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+    margin-inline: 3%;
+    padding: 3%;
+    background: #FF9015;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40vw;
+    height: 10vh;
+}
+
+main section .line .list-item img {
+    width: 15%;
+}
+
+main section .line .list-item h2 {
+    font-family: "Montserrat";
+    width: 85%;
 }

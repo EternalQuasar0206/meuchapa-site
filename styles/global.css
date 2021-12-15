@@ -2,6 +2,11 @@ body {
     margin: 0;
     height: 100vh;
     
+    background: url("../media/img/bg/carryBg.jpg");
+    background-position: 50% 0%;
+       background-size: 130%;
+
+
     font-family: "Roboto";
     color: #fff;
 }
@@ -19,7 +24,7 @@ nav {
     align-items: center;
 
     width: 100%;
-    height: 10vh;
+    height: 12vh;
 }
 
 nav #left {
