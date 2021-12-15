@@ -72,7 +72,7 @@ main section {
 }
 
 main .initial-section {
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 main section h3 {
@@ -135,7 +135,7 @@ main section .line .list-item img {
     width: 15%;
 }
 
-main section .line .list-item h2 {
+main section .line .list-item h2, main section .line .list-item h3 {
     font-family: "Montserrat";
     width: 85%;
 }
