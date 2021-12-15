@@ -178,7 +178,28 @@ main section .line .big-card h4, main section .line .big-card h3 {
 }
 
 .box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+
     display: flex;
-    align-items: left;
+    align-items: center;
+    justify-content: right;
     width: 100vw;
+    height: 40em;
+}
+
+.box img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+}
+
+.box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45%;
+    height: 100%;
 }
