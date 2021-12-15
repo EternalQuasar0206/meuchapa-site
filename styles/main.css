@@ -91,6 +91,7 @@ main section .line {
     display: flex;
     flex-direction: row;
     margin-block: 3%;
+    justify-content: center;
 }
 
 main section .line .card {
@@ -213,4 +214,34 @@ main section .line .big-card h4, main section .line .big-card h3 {
     width: 100%;
     margin: 1%;
     font-size: 1.2em;
+}
+
+main section .line .button {
+    transition: 0.3s;
+    cursor: pointer;
+
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+    margin-inline: 2%;
+    padding: 2%;
+    background: #FF9015;
+    border-radius: 1em;
+
+    font-family: "Montserrat";
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22vw;
+    height: 5vh;
+}
+
+main section .line .button:hover {
+    transform: scale(1.1);
+}
+
+main section .line img {
+    width: 20%;
+    margin-inline: 5%;
 }
