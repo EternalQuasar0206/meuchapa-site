@@ -176,3 +176,9 @@ main section .line .big-card img {
 main section .line .big-card h4, main section .line .big-card h3 {
     width: 80%;
 }
+
+.box {
+    display: flex;
+    align-items: left;
+    width: 100vw;
+}
