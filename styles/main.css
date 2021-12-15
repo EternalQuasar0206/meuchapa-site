@@ -1,0 +1,104 @@
+main {
+    width: 100%;
+    background: url("../media/img/bg/chargeBg.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+main #container {
+    position: relative;
+    z-index: 1;
+
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.5em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 25vh;
+}
+
+h1 {
+    height: 10%;
+
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 4em;
+    color: #ccc;
+}
+
+h1 div {
+    line-height: 1em;
+    border-right: 0.1em solid #FF9015;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    color: #FF9015;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FF9015; }
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 span {
+    color: #FF9015;
+}
+
+main section {
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 75%;
+    margin-top: 25%;
+
+    text-align: center;
+}
+
+main section h3 {
+    width: 75%;
+}
+
+main section h3 span {
+    color: #FF9015;
+}
+
+main section .line {
+    display: flex;
+    flex-direction: row;
+    margin-block: 3%;
+}
+
+main section .line div {
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+    margin-inline: 3%;
+    padding: 3%;
+    background: #FF9015;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+}
+
+main section .line div img {
+    width: 60%;
+}
