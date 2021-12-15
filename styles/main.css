@@ -193,7 +193,7 @@ main section .line .big-card h4, main section .line .big-card h3 {
 }
 
 .box img {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 45%;
