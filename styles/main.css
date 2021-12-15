@@ -66,9 +66,13 @@ main section {
     align-items: center;
 
     width: 75%;
-    margin-top: 25%;
+    margin-top: 5%;
 
     text-align: center;
+}
+
+main .initial-section {
+    margin-top: 25%;
 }
 
 main section h3 {
