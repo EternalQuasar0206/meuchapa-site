@@ -245,3 +245,34 @@ main section .line img {
     width: 20%;
     margin-inline: 5%;
 }
+
+main section .partner-comment {
+    transition: 0.3s;
+    cursor: pointer;
+
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+    margin-inline: 2%;
+    padding: 2%;
+    background: #FF9015;
+    border-radius: 1em;
+
+    font-family: "Montserrat";
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45vw;
+    height: 20vh;
+}
+
+main section .partner-comment img {
+    width: 10vw;
+}
+
+main section .vertical-line {
+    display: flex;
+    flex-direction: row;
+    margin-block: 3%;
+}
