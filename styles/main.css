@@ -291,3 +291,13 @@ footer img {
     filter: grayscale(100%);
     width: 12vw;
 }
+
+iframe {
+    width: 60vw;
+    height: 75vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
