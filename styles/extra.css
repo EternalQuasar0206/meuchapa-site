@@ -46,5 +46,6 @@
     left:50%;
     transform:translate(-50%,-50%) rotate(45deg);
     background-color:#FF9015;
-    border:1px solid black;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    border:1px solid black;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
