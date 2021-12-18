@@ -115,6 +115,7 @@ main section .line .card img {
 }
 
 main section .line .list-item {
+    cursor: pointer;
     transition: 0.3s;
 
     box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
@@ -129,6 +130,10 @@ main section .line .list-item {
     align-items: center;
     width: 40vw;
     height: 10vh;
+}
+
+main section .line .list-item:hover {
+    transform: scale(1.1);
 }
 
 main section .line .list-item img {
