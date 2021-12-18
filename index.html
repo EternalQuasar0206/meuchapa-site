@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="./styles/fawesome.css" rel="stylesheet">
         <link href="./styles/imports.css" rel="stylesheet">
         <link href="./styles/global.css" rel="stylesheet">
         <link href="./styles/main.css" rel="stylesheet">
+        <link href="./styles/extra.css" rel="stylesheet">
     </head>
     <body>
+        <script src="./scripts/fawesome.js"></script>
         <nav>
             <div id="left">
                 <ul>
-                    <li>
-                        <img src="./media/img/brand/logoIcon.png">
-                    </li>
-                    <li>Quem Somos</li>
+                    <a href="./index.html"><li><img src="./media/img/brand/logoIcon.png"></li></a>
+                    <a href="./quem-somos.html"><li>Quem Somos</li></a>
                     <li>Para a Empresa</li>
                     <li>Seja MEI</li>
                 </ul>
@@ -47,7 +48,6 @@
                             <img src="./media/img/icons/worker.svg">
                             <h4>Sou um profissional</h4>
                         </div>
-                        
                     </div>
                 </section>
                 <section>
@@ -55,28 +55,266 @@
                         MEU <span>CHAPA</span> É...
                     </h2>
                     <div class="line">
-                        <div class="list-item">
+                        <div class="list-item tooltip">
                             <img src="./media/img/icons/clock.svg">
                             <h2>NA HORA</h2>
+                            <div class="top">
+                                <h3>NA HORA</h3>
+                                <p>
+                                    Empresas acessam a plataforma e procuram pelo profissional certo, para 
+                                    o momento, data e serviços certos. Os chapas recebem os trabalhos no seu 
+                                    dispositivo e marcam com a empresa.
+                                </p>
+                                <p>
+                                    <b>Tudo isso muitas vezes sem sair de casa.</b>
+                                </p>
+                                <i></i>
+                            </div>
                         </div>
-                        <div class="list-item">
+                        <div class="list-item tooltip">
                             <img src="./media/img/icons/easy.svg">
                             <h2>FÁCIL</h2>
+                            <div class="top">
+                                <h3>FÁCIL</h3>
+                                <p>
+                                    Tudo é feito pela internet, sem complicações, 
+                                    de forma confiável e rentável para ambas as partes.
+                                </p>
+                                <i></i>
+                            </div>
                         </div>
                     </div>
                     <div class="line">
-                        <div class="list-item">
+                        <div class="list-item tooltip">
                             <img src="./media/img/icons/cloud.svg">
                             <h3>SEMPRE DISPONÍVEL</h3>
+                            <div class="top">
+                                <h3>SEMPRE DISPONÍVEL</h3>
+                                <p>
+                                    Trabalhos de acordo com a sua disponibilidade, não 
+                                    importa o horário ou o dia da semana.
+                                </p>
+                                <i></i>
+                            </div>
                         </div>
-                        <div class="list-item">
+                        <div class="list-item tooltip">
                             <img src="./media/img/icons/fast.svg">
                             <h2>ÁGIL</h2>
+                            <div class="top">
+                                <h3>ÁGIL</h3>
+                                <p>
+                                    Contamos com tecnologia moderna para garantir uma experiência
+                                    ágil.
+                                </p>
+                                <i></i>
+                            </div>
                         </div>
                     </div>
                 </section>
-                
+                <section>
+                    <h2 class="title">
+                        COMO FUNCIONA?
+                    </h2>
+                    <div class="line">
+                        <div class="big-card tooltip">
+                            <div>
+                                <img src="./media/img/icons/toWork.svg">
+                                <h4 class="title">PRECISO DE UM TRABALHO</h4>
+                            </div>
+                            <div class="top">
+                                <p>
+                                    A empresa solicita o que precisa, onde e quando.
+                                </p>
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="big-card tooltip">
+                            <div>
+                                <img src="./media/img/icons/workerAdd.svg">
+                                <h3 class="title">ENCONTRO UM CHAPA</h3>
+                            </div>
+                            <div class="top">
+                                <p>
+                                    Os chapas disponíveis aceitam o trabalho e marcam tudo com a empresa.
+                                </p>
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="big-card tooltip">
+                            <div>
+                                <img src="./media/img/icons/toWork.svg">
+                                <h3 class="title">TRABALHO CONCLUÍDO</h3>
+                            </div>
+                            <div class="top">
+                                <p>
+                                    Na hora e no dia marcado, o chapa e o motorista se encontram para concluir 
+                                    o serviço.
+                                </p>
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="big-card tooltip">
+                            <div>
+                                <img src="./media/img/icons/score.svg">
+                                <h3 class="title">AVALIO COMO FOI</h3>
+                            </div>
+                            <div class="top">
+                                <p>
+                                    Empresa, motorista e chapa avaliam a tarefa com o objetivo de gerar valor 
+                                    para todos os envolvidos.
+                                </p>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="box-section">
+                    <h2 class="title">
+                        QUER SER <span>MEUCHAPA</span>?
+                    </h2>
+                    <div class="box">
+                        <img alt="Mulher trabalhando como chapa" src="./media/img/brand/WorkerImage.png">
+                        <div>
+                            <h2 class="title">Olha só do que você precisa:</h2>
+                            <p>● Internet com conexão 3G</p>
+                            <p>● Conta bancária em seu nome</p>
+                            <p>● Experiência com carga e descarga</p>
+                            <p>● Ter ou criar o seu cadastro como MEI</p>
+                            <p>● Celular com WhatsApp e e-mail (e saber utilizá-los)</p>
+                            <p>● Não ter carteira assinada nem seguro-desemprego</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="title">
+                        MAS E AÍ, VAMOS COLOCAR <span>A MÃO NA MASSA?</span>
+                    </h2>
+                    <h3>
+                        Clique no botão abaixo e faça parte deste modelo inteligente de alocação 
+                        e gestão de mão de obra.
+                    </h3>
+                    <div class="line">
+                        <div class="button" onclick="window.open('https://app.meu-chapa.net/register')">
+                            QUERO FAZER PARTE
+                        </div>
+                    </div>
+                    
+                    <h3>
+                        <span>
+                            ► A MEUCHAPA NÃO EMPREGA PROFISSIONAIS DE CARGA E DESCARGA, MAS SIM 
+                            CONECTA PROFISSIONAIS AUTÔNOMOS A CENTENAS DE MOTORISTAS NAS CIDADES EM QUE ATUA.
+                        </span>
+                    </h3>
+                </section>
+                <section>
+                    <h2 class="title">
+                        EMPRESAS QUE <span>CONFIAM</span> NA <span>MEUCHAPA</span>
+                    </h2>
+                    <div class="line">
+                        <img src="./media/img/brand/3coracoes.png">
+                        <img src="./media/img/brand/klLogistica.png">
+                        <img src="./media/img/brand/Pavani.jpg">
+                    </div>
+                </section>
+                <section>
+                    <h2 class="title">
+                        DEPOIMENTOS DE PARCEIROS
+                    </h2>
+                    <div class="vertical-line">
+                        <div class="partner-comment">
+                            <img src="./media/photo/wellinton.webp">
+                            <div>
+                                <p>
+                                    “Sobre o aplicativo MeuChapa, achei ótimo, prático, muito bom recomendo. Um aplicativo sério, nos 
+                                    livra de transtornos, de ficar na beira da estrada. Estão de parabéns, só tenho a agradecer.”
+                                </p>
+                                <p><small>Wellinton Almeida Cruz, Chapa, Guarema/SP</small></p>
+                            </div>
+                            
+                        </div>
+                        <div class="partner-comment">
+                            <img src="./media/photo/warlen.webp">
+                            <div>
+                                <p>
+                                    “O aplicativo é bem prático, evita que eu leve dinheiro, leve o ajudante na cabine ou me preocupe 
+                                    em procurar por um ajudante. Quando você chega no cliente, o chapa já está te esperando.” 
+                                </p>
+                                <p><small>Warlen Nascimento, Motorista, Amparo/SP</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-line">
+                        <div class="partner-comment">
+                            <img src="./media/photo/pedro.webp">
+                            <div>
+                                <p>
+                                    “Pensar fora dos padrões, ousar e acreditar na inovação. Esses são os pilares da relação Pavani 
+                                    Logística e MeuChapa. Parceria de sucesso que proporcionou melhorias em todos os aspectos da 
+                                    operação.” 
+                                </p>
+                                <p><small>Pedro Pavani, COO, Amparo/SP</small></p>
+                            </div>
+                        </div>
+                        <div class="partner-comment">
+                            <img src="./media/photo/luciana.webp">
+                            <div>
+                                <p>
+                                    “Inovação, tecnologia e praticidade definem. Uma nova forma de pensar na relação 
+                                    transportador-chapa. Profissionalização da operação, tornando-a segura, prática e eficiente.” 
+                                </p>
+                                <p><small>Luciana Pozzebon, Gerente, Amparo/SP</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-line">
+                        <div class="partner-comment">
+                            <img src="./media/photo/guilherme.webp">
+                            <div>
+                                <p>
+                                    “Eu gostei do trabalho que fiz. Foi tranquilo, motorista ajudou muito, pagamento foi feito assim 
+                                    que terminou o trabalho. Gostei e recomendo.” 
+                                </p>
+                                <p><small>Guilherme Moreira, Chapa, Franca/SP</small></p>
+                            </div>
+                        </div>
+                        <div class="partner-comment">
+                            <img src="./media/photo/andre.webp">
+                            <div>
+                                <p style="font-size: 0.85em">
+                                    “Muito bacana o aplicativo, ajuda bem. Na questão de segurança e acidente, evitar de ficar levando as 
+                                    pessoas dentro do caminhão é uma segurança a mais. Eu prefiro assim que o chapa espere na porta do cliente, 
+                                    evita de ficar pegando pessoas no caminho.”
+                                </p>
+                                <p><small>André Gonçalves, Motorista, Amparo/SP</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="title">
+                        COMO FUNCIONA?
+                    </h2>
+                    <div class="line">
+                        <iframe src="https://www.youtube.com/embed/RAJVUOBmqMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+                </section>
             </div>
         </main>
+        <footer>
+            <img src="./media/img/brand/logo.png">
+            <div>
+                <p><b>Fale Conosco</b></p>
+                suporte@meu-chapa.com
+            </div>
+            <div>
+                <p><b>Redes Sociais</b></p>
+                <span style="font-size: 2em">
+                    <a href="https://www.instagram.com/meuchapabrasil/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com/MeuChapaBR/" target="_blank"></a><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/company/meuchapabr" target="_blank"></a><i class="fab fa-linkedin"></i></a>
+                </span>
+            </div>
+        </footer>
+        <script src="./scripts/navbarEvent.js"></script>
     </body>
 </html>
