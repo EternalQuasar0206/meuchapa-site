@@ -1,0 +1,1 @@
+if(window.screen.width < window.screen.height) window.location.href = "./index.html";
