@@ -22,15 +22,16 @@ a {
     body {
         position: fixed;
         background: #ddd;
+        background: url("../media/img/bg/mobileBg.jpg");
     }
 
     nav {
-        background: rgba(0, 0, 0, 0.7) !important; /* Important para sobrepor função JS */
+        background: transparent;
 
         margin: 0;
         transition: 0.5s;
         z-index: 10;
-        position: fixed;
+        position: absolute;
         
         top: 0;
     
