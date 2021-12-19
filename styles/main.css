@@ -18,15 +18,15 @@ main section .line {
 
 .action-call {
     border: 0.2em solid #FF9015;
-    
-    width: 45%;
-    padding: 5%;
 
     background: transparent;
 
-    font-size: 1em;
     font-family: "Montserrat";
     color: #FF9015;
+}
+
+.action-call:only-child {
+    border-radius: 3em;
 }
 
 .action-call:first-child {
@@ -55,6 +55,12 @@ main section .line {
 
     section span {
         color: #FF9015;
+    }
+
+    .action-call {
+        width: 45%;
+        padding: 5%;
+        font-size: 1em;
     }
 
     .display-mobile {
@@ -142,6 +148,25 @@ main section .line {
         display: none;
     }
 
+    .action-call {
+        transition: 0.3s;
+        cursor: pointer;
+
+        margin: 0;
+        width: 28%;
+        height: 10vh;
+        background: rgba(0, 0, 0, 0.7);
+        padding-inline: 5%;
+
+        border: 0.1em solid #FF9015;
+        font-size: 1.5em;
+    }
+
+    .action-call:hover {
+        transform: translateY(-10%);
+        background: rgba(0, 0, 0, 0.9);
+    }
+
     main #container {
         position: relative;
         z-index: 1;
@@ -154,7 +179,7 @@ main section .line {
 
         width: 100%;
         min-height: 100vh;
-        padding-top: 25vh;
+        padding-top: 20vh;
     }
 
     h1 {
