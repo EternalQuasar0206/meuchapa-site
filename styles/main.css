@@ -39,6 +39,11 @@ main section .line {
     border-bottom-right-radius: 1em;
 }
 
+.action-call:disabled {
+    color: gray;
+    border: 0.2em solid gray;
+}
+
 @media(max-width: 799px) {
     html {
         overflow-y: scroll;
