@@ -1,6 +1,38 @@
+main {
+    width: 100%;
+}
+
+@media(orientation: portrait) {
+    main {
+        display: none;
+    }
+
+    main #container {
+        
+        z-index: 1;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 30vh;
+
+        color: #FF9015;
+        font-family: "Montserrat";
+    }
+
+    h1 {
+        height: 10%;
+
+        text-align: center;
+        font-size: 4em;
+    }
+}
+
 @media(orientation: landscape) {
     main {
-        width: 100%;
         background: url("../media/img/bg/chargeBg.jpg");
         background-size: 130%;
         background-repeat: no-repeat;
@@ -284,20 +316,6 @@
         margin-block: 3%;
     }
 
-    footer {
-        height: 30vh;
-        background: #111;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    footer img {
-        filter: grayscale(100%);
-        width: 12vw;
-    }
-
     iframe {
         width: 60vw;
         height: 75vh;
@@ -306,5 +324,19 @@
     a {
         text-decoration: none;
         color: #fff;
+    }
+
+    footer {
+        height: 30vh;
+        background: #111;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    footer img {
+        filter: grayscale(100%);
+        width: 12vw;
     }
 }
