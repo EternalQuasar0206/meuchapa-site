@@ -1,308 +1,310 @@
-main {
-    width: 100%;
-    background: url("../media/img/bg/chargeBg.jpg");
-    background-size: 130%;
-    background-repeat: no-repeat;
-}
-
-main #container {
-    position: relative;
-    z-index: 1;
-
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(0.5em);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 25vh;
-}
-
-h1 {
-    height: 10%;
-
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    font-size: 4em;
-    color: #ccc;
-}
-
-h1 div {
-    line-height: 1em;
-    border-right: 0.1em solid #FF9015;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: 
-    typing 2.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-    color: #FF9015;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #FF9015; }
-}
-
-h2 {
-    font-size: 2em;
-    text-shadow: 1px 1px 2px black;
-}
-
-h2 span {
-    color: #FF9015;
-}
-
-main section {
-    text-shadow: 1px 1px 2px black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 75%;
-    margin-top: 5%;
-
-    text-align: center;
-}
-
-.box-section {
-    width: 100%;
-}
-
-main .initial-section {
-    margin-top: 20%;
-}
-
-main section h3 {
-    width: 75%;
-}
-
-main section h3 span {
-    color: #FF9015;
-}
-
-main section .line {
-    display: flex;
-    flex-direction: row;
-    margin-block: 3%;
-    justify-content: center;
-}
-
-main section .line .card {
-    transition: 0.3s;
-    cursor: pointer;
-
-    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
-
-    margin-inline: 3%;
-    padding: 3%;
-    background: #FF9015;
-    border-radius: 1em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 10vw;
-}
-
-main section .line .card:hover {
-    transform: scale(1.1);
-}
-
-main section .line .card img {
-    width: 60%;
-}
-
-main section .line .list-item {
-    cursor: pointer;
-    transition: 0.3s;
-
-    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
-
-    margin-inline: 3%;
-    padding: 3%;
-    background: #FF9015;
-    border-radius: 1em;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 40vw;
-    height: 10vh;
-}
-
-main section .line .list-item:hover {
-    transform: scale(1.1);
-}
-
-main section .line .list-item img {
-    width: 15%;
-}
-
-main section .line .list-item h2, main section .line .list-item h3 {
-    font-family: "Montserrat";
-    width: 85%;
-}
-
-main section .line .big-card {
-    transition: 0.3s;
-    cursor: pointer;
-
-    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
-
-    margin-inline: 2%;
-    padding: 2%;
-    background: #FF9015;
-    border-radius: 1em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 22vw;
-    height: 15vh;
-}
-
-main section .line .big-card:hover {
-    filter: sepia(30%);
-}
-
-main section .line .big-card div {
-    display: flex; 
-    flex-direction: row;
-}
-
-main section .line .big-card img {
-    margin-right: 2%;
-    width: 40%;
-}
-
-main section .line .big-card h4, main section .line .big-card h3 {
-    width: 80%;
-}
-
-.box {
-    position: relative;
-    background: rgba(0, 0, 0, 0.7);
-
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    width: 100%;
-    height: 40em;
-}
-
-.box img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 45%;
-}
-
-.box div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    width: 45%;
-    height: 100%;
-}
-
-.box div p {
-    width: 100%;
-    margin: 1%;
-    font-size: 1.2em;
-}
-
-main section .line .button {
-    transition: 0.3s;
-    cursor: pointer;
-
-    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
-
-    margin-inline: 2%;
-    padding: 2%;
-    background: #FF9015;
-    border-radius: 1em;
-
-    font-family: "Montserrat";
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 22vw;
-    height: 5vh;
-}
-
-main section .line .button:hover {
-    transform: scale(1.1);
-}
-
-main section .line img {
-    width: 20%;
-    margin-inline: 5%;
-}
-
-main section .partner-comment {
-    transition: 0.3s;
-    cursor: pointer;
-
-    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
-
-    margin-inline: 2%;
-    padding: 2%;
-    background: #FF9015;
-    border-radius: 1em;
-
-    font-family: "Montserrat";
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 45vw;
-    height: 20vh;
-}
-
-main section .partner-comment img {
-    width: 10vw;
-    margin-right: 3%;
-}
-
-main section .vertical-line {
-    display: flex;
-    flex-direction: row;
-    margin-block: 3%;
-}
-
-footer {
-    height: 30vh;
-    background: #111;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-footer img {
-    filter: grayscale(100%);
-    width: 12vw;
-}
-
-iframe {
-    width: 60vw;
-    height: 75vh;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
+@media(orientation: landscape) {
+    main {
+        width: 100%;
+        background: url("../media/img/bg/chargeBg.jpg");
+        background-size: 130%;
+        background-repeat: no-repeat;
+    }
+
+    main #container {
+        position: relative;
+        z-index: 1;
+
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(0.5em);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 25vh;
+    }
+
+    h1 {
+        height: 10%;
+
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+        font-size: 4em;
+        color: #ccc;
+    }
+
+    h1 div {
+        line-height: 1em;
+        border-right: 0.1em solid #FF9015;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: 
+        typing 2.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+        color: #FF9015;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #FF9015; }
+    }
+
+    h2 {
+        font-size: 2em;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    h2 span {
+        color: #FF9015;
+    }
+
+    main section {
+        text-shadow: 1px 1px 2px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 75%;
+        margin-top: 5%;
+
+        text-align: center;
+    }
+
+    .box-section {
+        width: 100%;
+    }
+
+    main .initial-section {
+        margin-top: 20%;
+    }
+
+    main section h3 {
+        width: 75%;
+    }
+
+    main section h3 span {
+        color: #FF9015;
+    }
+
+    main section .line {
+        display: flex;
+        flex-direction: row;
+        margin-block: 3%;
+        justify-content: center;
+    }
+
+    main section .line .card {
+        transition: 0.3s;
+        cursor: pointer;
+
+        box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+        margin-inline: 3%;
+        padding: 3%;
+        background: #FF9015;
+        border-radius: 1em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10vw;
+    }
+
+    main section .line .card:hover {
+        transform: scale(1.1);
+    }
+
+    main section .line .card img {
+        width: 60%;
+    }
+
+    main section .line .list-item {
+        cursor: pointer;
+        transition: 0.3s;
+
+        box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+        margin-inline: 3%;
+        padding: 3%;
+        background: #FF9015;
+        border-radius: 1em;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40vw;
+        height: 10vh;
+    }
+
+    main section .line .list-item:hover {
+        transform: scale(1.1);
+    }
+
+    main section .line .list-item img {
+        width: 15%;
+    }
+
+    main section .line .list-item h2, main section .line .list-item h3 {
+        font-family: "Montserrat";
+        width: 85%;
+    }
+
+    main section .line .big-card {
+        transition: 0.3s;
+        cursor: pointer;
+
+        box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+        margin-inline: 2%;
+        padding: 2%;
+        background: #FF9015;
+        border-radius: 1em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 22vw;
+        height: 15vh;
+    }
+
+    main section .line .big-card:hover {
+        filter: sepia(30%);
+    }
+
+    main section .line .big-card div {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    main section .line .big-card img {
+        margin-right: 2%;
+        width: 40%;
+    }
+
+    main section .line .big-card h4, main section .line .big-card h3 {
+        width: 80%;
+    }
+
+    .box {
+        position: relative;
+        background: rgba(0, 0, 0, 0.7);
+
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 100%;
+        height: 40em;
+    }
+
+    .box img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 45%;
+    }
+
+    .box div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 45%;
+        height: 100%;
+    }
+
+    .box div p {
+        width: 100%;
+        margin: 1%;
+        font-size: 1.2em;
+    }
+
+    main section .line .button {
+        transition: 0.3s;
+        cursor: pointer;
+
+        box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+        margin-inline: 2%;
+        padding: 2%;
+        background: #FF9015;
+        border-radius: 1em;
+
+        font-family: "Montserrat";
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 22vw;
+        height: 5vh;
+    }
+
+    main section .line .button:hover {
+        transform: scale(1.1);
+    }
+
+    main section .line img {
+        width: 20%;
+        margin-inline: 5%;
+    }
+
+    main section .partner-comment {
+        transition: 0.3s;
+        cursor: pointer;
+
+        box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.7);
+
+        margin-inline: 2%;
+        padding: 2%;
+        background: #FF9015;
+        border-radius: 1em;
+
+        font-family: "Montserrat";
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 45vw;
+        height: 20vh;
+    }
+
+    main section .partner-comment img {
+        width: 10vw;
+        margin-right: 3%;
+    }
+
+    main section .vertical-line {
+        display: flex;
+        flex-direction: row;
+        margin-block: 3%;
+    }
+
+    footer {
+        height: 30vh;
+        background: #111;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer img {
+        filter: grayscale(100%);
+        width: 12vw;
+    }
+
+    iframe {
+        width: 60vw;
+        height: 75vh;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
 }
