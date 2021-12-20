@@ -23,6 +23,7 @@ a {
         position: fixed;
         background: #ddd;
         background: url("../media/img/bg/mobileBg.jpg");
+        background-size: cover;
     }
 
     nav {
