@@ -18,6 +18,29 @@ a {
     color: #fff;
 }
 
+#topback {
+    cursor: pointer;
+
+    transition: 0.5s;
+    z-index: 10;
+
+    height: 2em;
+    width: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5em;
+
+    border: 0.2em solid black;
+    background: #FF9015;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+}
+
 @media(max-width: 799px) {
     body {
         position: fixed;
