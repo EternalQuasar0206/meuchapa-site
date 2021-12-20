@@ -77,6 +77,8 @@ footer div:nth-child(3) {
     }
 
     .display-mobile {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(0.5em);
         padding-top: 15vh;
 
         display: flex;
