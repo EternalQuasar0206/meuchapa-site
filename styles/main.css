@@ -44,6 +44,10 @@ main section .line {
     border: 0.2em solid gray;
 }
 
+footer div:nth-child(3) {
+    text-decoration: underline;
+}
+
 @media(max-width: 799px) {
     html {
         overflow-y: scroll;
@@ -124,12 +128,16 @@ main section .line {
     }
 
     footer {
-        height: 25vh;
+        min-height: 25vh;
         background: #111;
     
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+    }
+
+    footer p {
+        text-align: center;
     }
     
     footer img {
